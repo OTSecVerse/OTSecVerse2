@@ -152,7 +152,7 @@ pwa:
 paginate: 15
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/OTSecVerse2"
 
 # ------------ The following options are not recommended to be modified ------------------
 
