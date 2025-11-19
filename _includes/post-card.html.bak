@@ -1,0 +1,25 @@
+{%- comment -%}
+Post card image fix:
+- Ensures images work with /OTSecVerse2 baseurl
+- Provides fallback thumbnail
+- Fixes Post-*.png / post-*.png path issues
+{%- endcomment -%}
+
+{% assign img = post.image | default: post.thumbnail | default: '/assets/images/default-thumb.png' %}
+
+<img 
+  src="{{ img | relative_url }}" 
+  alt="{{ post.title | escape }}" 
+  loading="lazy"
+  style="border-radius: 8px; width: 100%; height: auto;"
+/>
+
+<!-- Title -->
+<h2 class="post-title">
+  <a href="{{ post.url | relative_url }}">
+    {{ post.title }}
+  </a>
+</h2>
+
+<!-- Excerpt -->
+<p>{{ post.excerpt | strip_html | truncate: 160 }}</p>

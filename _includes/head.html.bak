@@ -1,0 +1,29 @@
+{%- comment -%}
+Global <head> include
+Uses relative_url so GitHub Pages project baseurl (/OTSecVerse2) works
+{%- endcomment -%}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+<!-- FAVICONS -->
+<link rel="icon" href="{{ '/assets/favicons/favicon.ico' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/favicons/site.webmanifest' | relative_url }}">
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/jekyll-theme-chirpy.css' | relative_url }}">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- SEO -->
+<meta name="description" content="{{ page.description | default: site.description }}">
+
+<!-- Site Navigation URLs MUST use relative_url -->
+<link rel="preload" as="fetch" href="{{ '/' | relative_url }}">
+<link rel="preload" as="fetch" href="{{ '/about/' | relative_url }}">
+<link rel="preload" as="fetch" href="{{ '/categories/' | relative_url }}">

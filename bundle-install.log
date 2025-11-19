@@ -1,0 +1,133 @@
+Running `bundle install --jobs 4 --retry 3 --verbose` with bundler 2.7.2
+[DEPRECATED] Platform :mingw, :x64_mingw, :mswin is deprecated. Please use platform :windows instead.
+Found no changes, using resolution from the lockfile
+Using rake 13.3.1
+0:  rake (13.3.1) from /usr/local/rvm/gems/default/specifications/rake-13.3.1.gemspec
+Using Ascii85 2.0.1
+0:  Ascii85 (2.0.1) from /usr/local/rvm/gems/default/specifications/Ascii85-2.0.1.gemspec
+Using public_suffix 6.0.2
+0:  public_suffix (6.0.2) from /usr/local/rvm/gems/default/specifications/public_suffix-6.0.2.gemspec
+Using addressable 2.8.7
+0:  addressable (2.8.7) from /usr/local/rvm/gems/default/specifications/addressable-2.8.7.gemspec
+Using afm 1.0.0
+0:  afm (1.0.0) from /usr/local/rvm/gems/default/specifications/afm-1.0.0.gemspec
+Using fiber-annotation 0.2.0
+0:  fiber-annotation (0.2.0) from /usr/local/rvm/gems/default/specifications/fiber-annotation-0.2.0.gemspec
+Using fiber-storage 1.0.1
+0:  fiber-storage (1.0.1) from /usr/local/rvm/gems/default/specifications/fiber-storage-1.0.1.gemspec
+Using fiber-local 1.1.0
+0:  fiber-local (1.1.0) from /usr/local/rvm/gems/default/specifications/fiber-local-1.1.0.gemspec
+Using json 2.16.0
+0:  json (2.16.0) from /usr/local/rvm/gems/default/specifications/json-2.16.0.gemspec
+Using console 1.34.2
+0:  console (1.34.2) from /usr/local/rvm/gems/default/specifications/console-1.34.2.gemspec
+Using io-event 1.14.0
+0:  io-event (1.14.0) from /usr/local/rvm/gems/default/specifications/io-event-1.14.0.gemspec
+Using metrics 0.15.0
+0:  metrics (0.15.0) from /usr/local/rvm/gems/default/specifications/metrics-0.15.0.gemspec
+Using traces 0.18.2
+0:  traces (0.18.2) from /usr/local/rvm/gems/default/specifications/traces-0.18.2.gemspec
+Using async 2.34.0
+0:  async (2.34.0) from /usr/local/rvm/gems/default/specifications/async-2.34.0.gemspec
+Using base64 0.3.0
+0:  base64 (0.3.0) from /usr/local/rvm/gems/default/specifications/base64-0.3.0.gemspec
+Using bigdecimal 3.3.1
+0:  bigdecimal (3.3.1) from /usr/local/rvm/gems/default/specifications/bigdecimal-3.3.1.gemspec
+Using bundler 2.7.2
+0:  bundler (2.7.2) from /usr/local/rvm/gems/default/specifications/bundler-2.7.2.gemspec
+Using colorator 1.1.0
+0:  colorator (1.1.0) from /usr/local/rvm/gems/default/specifications/colorator-1.1.0.gemspec
+Using concurrent-ruby 1.3.5
+0:  concurrent-ruby (1.3.5) from /usr/local/rvm/gems/default/specifications/concurrent-ruby-1.3.5.gemspec
+Using csv 3.3.5
+0:  csv (3.3.5) from /usr/local/rvm/gems/default/specifications/csv-3.3.5.gemspec
+Using eventmachine 1.2.7
+0:  eventmachine (1.2.7) from /usr/local/rvm/gems/default/specifications/eventmachine-1.2.7.gemspec
+Using http_parser.rb 0.8.0
+0:  http_parser.rb (0.8.0) from /usr/local/rvm/gems/default/specifications/http_parser.rb-0.8.0.gemspec
+Using em-websocket 0.5.3
+0:  em-websocket (0.5.3) from /usr/local/rvm/gems/default/specifications/em-websocket-0.5.3.gemspec
+Using ffi 1.17.2 (x86_64-linux-gnu)
+0:  ffi (1.17.2) from /usr/local/rvm/gems/default/specifications/ffi-1.17.2-x86_64-linux-gnu.gemspec
+Using ethon 0.15.0
+0:  ethon (0.15.0) from /usr/local/rvm/gems/default/specifications/ethon-0.15.0.gemspec
+Using forwardable-extended 2.6.0
+0:  forwardable-extended (2.6.0) from /usr/local/rvm/gems/default/specifications/forwardable-extended-2.6.0.gemspec
+Using google-protobuf 4.33.0 (x86_64-linux-gnu)
+0:  google-protobuf (4.33.0) from /usr/local/rvm/gems/default/specifications/google-protobuf-4.33.0-x86_64-linux-gnu.gemspec
+Using hashery 2.1.2
+0:  hashery (2.1.2) from /usr/local/rvm/gems/default/specifications/hashery-2.1.2.gemspec
+Using racc 1.8.1
+0:  racc (1.8.1) from /usr/local/rvm/gems/default/specifications/racc-1.8.1.gemspec
+Using nokogiri 1.18.10 (x86_64-linux-gnu)
+0:  nokogiri (1.18.10) from /usr/local/rvm/gems/default/specifications/nokogiri-1.18.10-x86_64-linux-gnu.gemspec
+Using ruby-rc4 0.1.5
+0:  ruby-rc4 (0.1.5) from /usr/local/rvm/gems/default/specifications/ruby-rc4-0.1.5.gemspec
+Using ttfunk 1.8.0
+0:  ttfunk (1.8.0) from /usr/local/rvm/gems/default/specifications/ttfunk-1.8.0.gemspec
+Using pdf-reader 2.15.0
+0:  pdf-reader (2.15.0) from /usr/local/rvm/gems/default/specifications/pdf-reader-2.15.0.gemspec
+Using rainbow 3.1.1
+0:  rainbow (3.1.1) from /usr/local/rvm/gems/default/specifications/rainbow-3.1.1.gemspec
+Using typhoeus 1.5.0
+0:  typhoeus (1.5.0) from /usr/local/rvm/gems/default/specifications/typhoeus-1.5.0.gemspec
+Using yell 2.2.2
+0:  yell (2.2.2) from /usr/local/rvm/gems/default/specifications/yell-2.2.2.gemspec
+Using zeitwerk 2.7.3
+0:  zeitwerk (2.7.3) from /usr/local/rvm/gems/default/specifications/zeitwerk-2.7.3.gemspec
+Using html-proofer 5.1.0
+0:  html-proofer (5.1.0) from /usr/local/rvm/gems/default/specifications/html-proofer-5.1.0.gemspec
+Using i18n 1.14.7
+0:  i18n (1.14.7) from /usr/local/rvm/gems/default/specifications/i18n-1.14.7.gemspec
+Using sass-embedded 1.94.0 (x86_64-linux-gnu)
+0:  sass-embedded (1.94.0) from /usr/local/rvm/gems/default/specifications/sass-embedded-1.94.0-x86_64-linux-gnu.gemspec
+Using jekyll-sass-converter 3.1.0
+0:  jekyll-sass-converter (3.1.0) from /usr/local/rvm/gems/default/specifications/jekyll-sass-converter-3.1.0.gemspec
+Using rb-fsevent 0.11.2
+0:  rb-fsevent (0.11.2) from /usr/local/rvm/gems/default/specifications/rb-fsevent-0.11.2.gemspec
+Using rb-inotify 0.11.1
+0:  rb-inotify (0.11.1) from /usr/local/rvm/gems/default/specifications/rb-inotify-0.11.1.gemspec
+Using listen 3.9.0
+0:  listen (3.9.0) from /usr/local/rvm/gems/default/specifications/listen-3.9.0.gemspec
+Using jekyll-watch 2.2.1
+0:  jekyll-watch (2.2.1) from /usr/local/rvm/gems/default/specifications/jekyll-watch-2.2.1.gemspec
+Using rexml 3.4.4
+0:  rexml (3.4.4) from /usr/local/rvm/gems/default/specifications/rexml-3.4.4.gemspec
+Using kramdown 2.5.1
+0:  kramdown (2.5.1) from /usr/local/rvm/gems/default/specifications/kramdown-2.5.1.gemspec
+Using kramdown-parser-gfm 1.1.0
+0:  kramdown-parser-gfm (1.1.0) from /usr/local/rvm/gems/default/specifications/kramdown-parser-gfm-1.1.0.gemspec
+Using liquid 4.0.4
+0:  liquid (4.0.4) from /usr/local/rvm/gems/default/specifications/liquid-4.0.4.gemspec
+Using mercenary 0.4.0
+0:  mercenary (0.4.0) from /usr/local/rvm/gems/default/specifications/mercenary-0.4.0.gemspec
+Using pathutil 0.16.2
+0:  pathutil (0.16.2) from /usr/local/rvm/gems/default/specifications/pathutil-0.16.2.gemspec
+Using rouge 4.6.1
+0:  rouge (4.6.1) from /usr/local/rvm/gems/default/specifications/rouge-4.6.1.gemspec
+Using safe_yaml 1.0.5
+0:  safe_yaml (1.0.5) from /usr/local/rvm/gems/default/specifications/safe_yaml-1.0.5.gemspec
+Using unicode-display_width 2.6.0
+0:  unicode-display_width (2.6.0) from /usr/local/rvm/gems/default/specifications/unicode-display_width-2.6.0.gemspec
+Using terminal-table 3.0.2
+0:  terminal-table (3.0.2) from /usr/local/rvm/gems/default/specifications/terminal-table-3.0.2.gemspec
+Using webrick 1.9.1
+0:  webrick (1.9.1) from /usr/local/rvm/gems/default/specifications/webrick-1.9.1.gemspec
+Using jekyll 4.4.1
+0:  jekyll (4.4.1) from /usr/local/rvm/gems/default/specifications/jekyll-4.4.1.gemspec
+Using jekyll-archives 2.3.0
+0:  jekyll-archives (2.3.0) from /usr/local/rvm/gems/default/specifications/jekyll-archives-2.3.0.gemspec
+Using jekyll-include-cache 0.2.1
+0:  jekyll-include-cache (0.2.1) from /usr/local/rvm/gems/default/specifications/jekyll-include-cache-0.2.1.gemspec
+Using jekyll-paginate 1.1.0
+0:  jekyll-paginate (1.1.0) from /usr/local/rvm/gems/default/specifications/jekyll-paginate-1.1.0.gemspec
+Using jekyll-seo-tag 2.8.0
+0:  jekyll-seo-tag (2.8.0) from /usr/local/rvm/gems/default/specifications/jekyll-seo-tag-2.8.0.gemspec
+Using jekyll-sitemap 1.4.0
+0:  jekyll-sitemap (1.4.0) from /usr/local/rvm/gems/default/specifications/jekyll-sitemap-1.4.0.gemspec
+Using jekyll-theme-chirpy 7.4.1
+0:  jekyll-theme-chirpy (7.4.1) from /usr/local/rvm/gems/default/specifications/jekyll-theme-chirpy-7.4.1.gemspec
+Bundle complete! 5 Gemfile dependencies, 63 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+1 installed gem you directly depend on is looking for funding.
+  Run `bundle fund` for details

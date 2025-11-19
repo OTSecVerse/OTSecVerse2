@@ -1,0 +1,28 @@
+bundler: failed to load command: htmlproofer (/usr/local/rvm/gems/default/bin/htmlproofer)
+/usr/local/rvm/gems/default/gems/html-proofer-5.1.0/lib/html_proofer.rb:29:in `check_file': ./_site does not exist (ArgumentError)
+
+      raise ArgumentError, "#{file} does not exist" unless File.exist?(file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+	from /usr/local/rvm/gems/default/gems/html-proofer-5.1.0/lib/html_proofer/cli.rb:24:in `run'
+	from /usr/local/rvm/gems/default/gems/html-proofer-5.1.0/exe/htmlproofer:14:in `block in <top (required)>'
+	from /usr/local/lib/ruby/3.3.0/benchmark.rb:313:in `realtime'
+	from /usr/local/rvm/gems/default/gems/html-proofer-5.1.0/exe/htmlproofer:14:in `<top (required)>'
+	from /usr/local/lib/ruby/site_ruby/3.3.0/rubygems.rb:319:in `load'
+	from /usr/local/lib/ruby/site_ruby/3.3.0/rubygems.rb:319:in `activate_and_load_bin_path'
+	from /usr/local/rvm/gems/default/bin/htmlproofer:25:in `<top (required)>'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:59:in `load'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:59:in `kernel_load'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli/exec.rb:23:in `run'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli.rb:456:in `exec'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/command.rb:28:in `run'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor.rb:538:in `dispatch'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli.rb:35:in `dispatch'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/vendor/thor/lib/thor/base.rb:584:in `start'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/cli.rb:29:in `start'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/exe/bundle:28:in `block in <top (required)>'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/lib/bundler/friendly_errors.rb:118:in `with_friendly_errors'
+	from /usr/local/rvm/gems/default/gems/bundler-2.7.2/exe/bundle:20:in `<top (required)>'
+	from /usr/local/lib/ruby/site_ruby/3.3.0/rubygems.rb:319:in `load'
+	from /usr/local/lib/ruby/site_ruby/3.3.0/rubygems.rb:319:in `activate_and_load_bin_path'
+	from /usr/local/rvm/gems/default/bin/bundle:25:in `<main>'
