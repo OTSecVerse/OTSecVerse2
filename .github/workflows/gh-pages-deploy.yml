@@ -27,7 +27,7 @@ jobs:
           echo "Build step placeholder"
 
       - name: Upload artifact to GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./_site
 
@@ -36,4 +36,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
