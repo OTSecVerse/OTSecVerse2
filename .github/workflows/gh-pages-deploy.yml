@@ -1,7 +1,9 @@
-name: Deploy to GitHub Pages
+name: Build and publish to GitHub Pages
+
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,20 +13,43 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Build site
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Cache gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Install gems
         run: |
-          # Replace this with your actual build commands, for example:
-          # npm ci && npm run build
-          # or for Jekyll:
-          # bundle install && bundle exec jekyll build -d _site
-          echo "Build step placeholder"
+          gem install bundler
+          bundle config set --local path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
+
+      - name: Build site (Jekyll)
+        run: |
+          bundle exec jekyll build --destination _site
+          ls -la _site || (echo "_site missing — build failed" && exit 1)
+
+      - name: Run htmlproofer (link-check) — non-failing
+        run: |
+          if bundle exec htmlproofer ./_site --assume_extension --internal-domains cyber-maya.github.io; then
+            echo "htmlproofer passed"
+          else
+            echo "htmlproofer found issues — continuing to deploy"
+          fi
 
       - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v4
