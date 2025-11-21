@@ -1,6 +1,0 @@
-{%- comment -%}
-  Example: use this for thumbnail in index/archive/post card
-{%- endcomment -%}
-
-{% assign img = post.image | default: post.thumbnail | default: '/assets/images/default-thumb.png' %}
-<img src="{{ img | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
