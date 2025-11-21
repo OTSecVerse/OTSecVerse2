@@ -13,7 +13,7 @@ description: >-
 url: "https://otsecverse.github.io"
 
 # Required for GitHub PROJECT PAGES
-baseurl: "/OTSecVerse2"
+baseurl: "/OTSecVerse"
 
 github:
   username: otsecverse

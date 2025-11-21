@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/images/Post-0.png
+avatar: /assets/images/OTSecVerse.png
 
 #https://cybermaya.in/wp-content/uploads/2023/10/cybermaya-2023-10-06-18.22.08-1.png
 
